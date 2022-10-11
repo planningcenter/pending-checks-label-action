@@ -1,0 +1,27 @@
+{
+  "name": "pending-checks-label-action",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planningcenter/pending-checks-label-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/planningcenter/pending-checks-label-action/issues"
+  },
+  "homepage": "https://github.com/planningcenter/pending-checks-label-action#readme",
+  "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@octokit/action": "^4.0.8",
+    "@vercel/ncc": "^0.34.0"
+  }
+}
