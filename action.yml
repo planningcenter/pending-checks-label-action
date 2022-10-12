@@ -2,5 +2,5 @@ name: "Pending Checks Label"
 description: "Github action that adds pending checks label to PRs that have failed checks"
 
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
