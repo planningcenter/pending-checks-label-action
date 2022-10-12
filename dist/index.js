@@ -13649,7 +13649,6 @@ async function run() {
 
     const context = github.context;
     const payload = github.context.payload;
-
     const pullRequestNumber = payload.workflow_run.pull_requests.find(pull => pull.head.ref === payload.workflow_run.head_branch).number
 
     if (payload.workflow_run.conclusion === "failure") {
