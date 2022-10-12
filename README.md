@@ -2,6 +2,8 @@
 
 This Github action adds the `PENDING CHECKS` and `NOT READY` labels to a PR when it has failed checks.
 
+## How to use
+
 Below is an example of how you can set it up.
 
 It works on completion of a workflow run. The `workflows` field should contain the name of the workflow or workflows running your checks.
@@ -28,3 +30,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: planningcenter/pending-checks-label-action@v0.1.0
 ```
+
+## Copyright & License
+
+Copyright (c) Planning Center, licensed MIT. See LICENSE file in this repo.
